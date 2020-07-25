@@ -1,0 +1,112 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# logs
+logs
+
+# npm
+.npmrc
+npm-debug.log*
+package-lock.json
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+.npm
+node_modules
+yarn.lock
+
+# generated Docs
+Documentation.json
+
+# optional eslint cache
+.eslintcache
+
+# dotenv environment variables file(s)
+.env
+
+# sitecore config
+scjssconfig.json
+sitecore/config/**/*.config
+
+# build generated
+.cache
+/dist
+build
+coverage
+sitecore/manifest
+sitecore/package
+docs.json
+stats.json
+public
+
+#Jamstack
+jamstack/data
+jamstack/static
+
+# windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# recycle bin used on file shares
+$RECYCLE.BIN/
+
+# macos thumbnails
+._*
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+scjssconfig.json
+*.deploysecret.config
+
+### sublime text ###
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+.tern-port
+
+### vs code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+.vscode/launch.json
+!.vscode/extensions.json
+
+## Pa11y Html report
+/tmp
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Lighthouse report
+/report
+
+
+## ignore snapshots
+__snapshots__/
+
+## for dynamic url
+scjssconfig.js
+scjssconfig.json
+tests/test/screenshots/diff/**.png
+tests/test/screenshots/reference/**.png
+tests/test/screenshots/screen/**.png
